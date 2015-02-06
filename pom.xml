@@ -10,10 +10,10 @@
 
 	<!-- the modules that shall be built together in one reactor -->
 	<modules>
-		<module>../tychodemo.bundle</module>
-		<module>../tychodemo.bundle.tests</module>
-		<module>../tychodemo.feature</module>
-		<module>../tychodemo.repository</module>
+		<module>./tychodemo.bundle</module>
+		<module>./tychodemo.bundle.tests</module>
+		<module>./tychodemo.feature</module>
+		<module>./tychodemo.repository</module>
 	</modules>
 
 	<!-- common settings for all modules -->
