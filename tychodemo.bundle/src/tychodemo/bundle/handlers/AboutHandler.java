@@ -18,6 +18,7 @@ import org.eclipse.swt.widgets.Shell;
 public class AboutHandler {
 	@Execute
 	public void execute(Shell shell) {
+		Object handler = new org.ops4j.pax.url.mvn.Handler();
 		MessageDialog.openInformation(shell, "About", getGreeting());
 	}
 
