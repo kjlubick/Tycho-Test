@@ -13,10 +13,10 @@
 	<packaging>eclipse-plugin</packaging>
 	
 	<dependencies>
-		<dependency>
-			<groupId>com.mebigfatguy.fb-contrib</groupId>
-			<artifactId>fb-contrib</artifactId>
-			<version>6.1.0</version>
+	<dependency>
+		<groupId>org.ops4j.pax.url</groupId>
+		<artifactId>pax-url-aether</artifactId>
+		<version>1.5.2</version>
 		</dependency>
 	</dependencies>
 
